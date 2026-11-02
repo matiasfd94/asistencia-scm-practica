@@ -3,6 +3,14 @@
 Los cambios relevantes del proyecto se documentan en este archivo.
 
 
+## [2.0.0] - 2026-11-02
+
+### Changed
+- La función registrar_asistencia ahora recibe un diccionario con los datos del alumno en lugar de un DNI como texto.
+- El registro muestra el DNI y la materia del alumno.
+- Cambio incompatible: las llamadas anteriores deben adaptarse al nuevo formato de entrada.
+
+
 ## [1.1.0] - 2026-11-02
 
 ### Added
