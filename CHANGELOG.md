@@ -2,6 +2,11 @@
 
 Los cambios relevantes del proyecto se documentan en este archivo.
 
+## [2.0.1] - 2026-11-16
+
+### Fixed
+- Validación del campo DNI para rechazar valores nulos, vacíos, ausentes o de tipos distintos de texto.
+- Prevención de excepciones al intentar limpiar un DNI que no sea texto.
 
 ## [2.0.0] - 2026-11-02
 
@@ -9,7 +14,6 @@ Los cambios relevantes del proyecto se documentan en este archivo.
 - La función registrar_asistencia ahora recibe un diccionario con los datos del alumno en lugar de un DNI como texto.
 - El registro muestra el DNI y la materia del alumno.
 - Cambio incompatible: las llamadas anteriores deben adaptarse al nuevo formato de entrada.
-
 
 ## [1.1.0] - 2026-11-02
 
