@@ -2,6 +2,12 @@
 
 Los cambios relevantes del proyecto se documentan en este archivo.
 
+## [2.1.0] - 2026-11-21
+
+### Added
+- Historial de asistencias válidas durante la ejecución.
+- Función obtener_reporte_estadistico para consultar el total y el detalle de las asistencias.
+
 ## [2.0.1] - 2026-11-16
 
 ### Fixed
